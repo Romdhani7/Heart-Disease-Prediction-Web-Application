@@ -97,8 +97,5 @@ Clearly indicates whether the person has heart disease or not.
 <h2 style="color: #17A2B8;">📜 License</h2>
 This project is open source and available under the MIT License.
 
-<h2 style="color: #28A745;">👤 Author</h2>
-Romdhani Amina
 
-GitHub
-LinkedIn
+
