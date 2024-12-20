@@ -1,0 +1,116 @@
+<html>
+<body>
+    <style>
+        body{
+            background: url('static/11.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .container{
+            max-width: 380px;
+            margin: auto;
+            margin-top: 80px;
+            background-color: rgba(0, 0,0, 0.8);
+            text-align: center;
+            border-radius: 20px;
+            padding: 40px;
+            color:#fff;
+            border-color: black;
+            box-sizing: border-box;
+          }
+          input {
+            width: 100%;
+            padding: 10px 6px;
+            margin: 10px 0;
+            outline: none;
+            background-color: transparent;
+            color: #fff;
+            font-size: 18px;
+            font-weight:bold;    
+        }
+        select{
+            width: 100%;
+            padding: 10px 6px;
+            margin: 10px 0;
+            outline: none;
+            background-color: transparent;
+            color: rgb(90, 87, 87);
+            font-size: 18px;
+            font-weight:bold;     
+        }
+        a{
+            font-size: 20px;
+            
+        }
+        button{
+            width: 88%;
+            border-radius: 12px; 
+            padding: 10px;
+            background-color: blue;
+            color: #fff;
+            font-size: 20px;
+            font-weight: bold;
+            cursor: pointer;
+            margin: 10px 5px 0px  10px;
+
+        }
+
+    </style>
+        
+  
+    <div class="container"> 
+    <form method="POST", action="{{url_for('home')}}">
+        <b> <input type="text"  placeholder="Age", name='a'> <br><br>
+            <select name='b'><br><br>
+                <option value="">Sex</option>
+                <option value="1">M</option> 
+                <option value="0">F</option> 
+            </select><br><br> 
+            <select name="c" ><br><br>
+                <option value="">ChestPainType</option>
+                <option value="1">ATA</option> 
+                <option value="2">NAP </option> 
+                <option value="0">ASY </option>
+                <option value="3">TA</option>
+            </select><br><br>
+            <input type="text" placeholder="RestingBP ", name='d'> <br><br><br></b>
+            <input type="text" placeholder=" Cholesterol", name='e'> <br><br>
+            <input type="text" placeholder="FastingBS", name='f'> <br><br>
+         <select name="g" ><br><br>
+            <option value="">RestingECG</option>
+            <option value="1">Normal</option> 
+            <option value="2">ST</option> 
+            <option value="0">LVH </option>    
+        </select><br><br>
+        
+         <select name="h" ><br><br>
+            <option value="">ExerciseAngina</option>
+            <option value="0">N</option> 
+            <option value="1">Y</option> 
+        </select><br><br>
+        <input type="text" placeholder="MaxHR", name='i'> <br><br>
+        <input type="text" placeholder="Oldpeak", name='j' > <br><br>
+        <select name="k" ><br><br>
+            <option value="">ST_Slope</option>
+            <option value="1">Flat</option> 
+            <option value="0">Down</option> 
+            <option value="2">UP</option>    
+        </select><br><br>
+        <button>predict!</button> <br><br>
+         
+         
+    </form>
+    <a href="C:\Users\Amina\Desktop\test\HELP">HLEP!</a>
+    </div>
+     
+     
+            
+     
+       
+          
+        
+    
+</body>
+</html>
+
+

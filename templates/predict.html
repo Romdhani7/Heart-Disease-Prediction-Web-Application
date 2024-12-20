@@ -1,0 +1,53 @@
+<html>
+
+    <style>
+        body{
+            background: url('static/2.webp');
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .container{
+          max-width: 380px;
+          margin: 80px;
+          margin-top: 300px;
+          background-color: rgba(0, 0,0, 0.8);
+          text-align: center;
+          border-radius: 20px;
+          padding: 40px;
+          color:#fff;
+          border-color: black;
+          box-sizing: border-box;
+        }
+        h2{
+            color: #fff;
+            text-align: center;
+            font-style: italic;
+            
+        }
+        a{
+            font-size: 20px;
+            color: blue;
+            
+        }
+    </style>
+
+<div class="container">
+    
+    {%if data == 0%}
+    <h2>unfortunately you have the possibility of having a heart disease, I advise you to consult a doctor if possible</h2>  
+   
+
+    {%else%}
+    <h2>an initial estimate that you are healthy, but you need to see a doctor every year</h2>
+    
+    
+    {%endif%}
+
+        <br><br>
+    <a href='/'>go back to home page</a>
+
+
+</div>
+
+
+</html>
