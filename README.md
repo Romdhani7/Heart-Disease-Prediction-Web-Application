@@ -1,31 +1,35 @@
-#Heart Disease Prediction Web Application
+##Heart Disease Prediction Web Application
 
 * This is a simple web application built with Flask, where users can input health data, and it predicts the likelihood of heart disease using a pre-trained machine learning model.
 
-#Features:
+##Features:
 
 * Web Interface: The app provides a user-friendly web interface where users can enter various health parameters.
 * Prediction: Once the user submits the form, the application uses a pre-trained machine learning model to predict the likelihood of heart disease.
 * Result Display: After the prediction, the result is displayed on a separate page.
   
-#Project Structure
+##Project Structure
 
 *******************************************************************************************
 /heart-disease-prediction/
+
 │
 ├── app.py                     # Flask application code
 ├── /templates/
+
 │   ├── home.html              # HTML file for input form
 │   └── predict.html           # HTML file to display the prediction result
+
 ├── heart2.pkl                 # Pre-trained machine learning model
+
 └── requirements.txt           # List of required dependencies
 *******************************************************************************************
 
-#Requirements:
+##Requirements:
 
 Before running this application, make sure you have Python 3.6+ installed. Then, install the required dependencies.
 
-#Install Dependencies
+##Install Dependencies
 
 Clone the repository:
 
@@ -44,7 +48,7 @@ Install the required Python packages:
 *******************************************************************************************
 pip install -r requirements.txt
 
-#Dependencies:
+##Dependencies:
 
 This project uses the following Python packages:
 
@@ -53,10 +57,10 @@ NumPy
 scikit-learn
 These dependencies are listed in requirements.txt for easy installation.
 
-#Model
+##Model
 The machine learning model used in this application is a pre-trained model saved as heart2.pkl. This model was trained to predict the likelihood of heart disease based on various health features such as age, blood pressure, cholesterol levels, etc.
 
-#Running the Application
+##Running the Application
 To start the Flask application, run the following command in the project directory:
 
 *******************************************************************************************
@@ -64,7 +68,7 @@ python app.py
 *******************************************************************************************
 This will start the server locally, and you can access the application at http://127.0.0.1:5000/ in your browser.
 
-#Usage
+##Usage
 Open the app in your browser.
 Fill in the health parameters in the form.
 Submit the form to get the prediction result.
@@ -81,14 +85,14 @@ i: Slope of the Peak Exercise ST Segment
 j: Number of Major Vessels Colored by Fluoroscopy
 k: Thalassemia
 
-#Output
+##Output
 The model will predict whether the individual has heart disease or not based on the provided health parameters.
 
-#Project Pages
+##Project Pages
 home.html
 This is the main page of the application. It contains the form where users enter their health data.
 
-#predict.html
+##predict.html
 This page displays the predicted result after the user submits the form. It shows whether the person has heart disease or not based on the model's prediction.
 
 License
